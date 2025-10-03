@@ -1,7 +1,3 @@
-import {
-  fetchTwitterMetrics as fetchTwitterMetricsUtils,
-  fetchRedditMetrics as fetchRedditMetricsUtils,
-} from "./social-analytics-utils"
 import type { RedditMetrics, SocialHypeData } from "./types"
 
 const bearerToken = process.env.TWITTER_BEARER_TOKEN
@@ -137,10 +133,13 @@ export async function fetchRedditMetrics(tokenSymbol: string): Promise<RedditMet
   }
 }
 
-export async function calculateSocialHype(tokenSymbol: string, tokenAddress: string): Promise<SocialHypeData> {
+export async function calculateSocialHype(
+  tokenSymbol: string,
+  tokenAddress: string
+): Promise<SocialHypeData> {
   const [twitter, reddit] = await Promise.all([
-    fetchTwitterMetricsUtils(tokenSymbol, tokenAddress),
-    fetchRedditMetricsUtils(tokenSymbol),
+    fetchTwitterMetrics(tokenSymbol, tokenAddress),
+    fetchRedditMetrics(tokenSymbol),
   ])
 
   const twitterWeight = 0.7
