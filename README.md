@@ -4,7 +4,7 @@ ROMA Memetrace is an AI-powered platform that brings clarity to the chaotic worl
 
 Analyze any memecoin across Solana, Ethereum, BSC, and Base in real time. Paste a token contract address and let multiple AI agents deliver deep, transparent insights.
 
-**Key Features***
+**Key Features**
 - Live Agent Theater – Watch 4 AI agents (Collector, Sentiment Analyzer, Technical Analyst, Risk Assessor) think in real time.
 - Comprehensive Analysis – Risk radar, social hype score, liquidity checks, contract scans, and AI-powered price predictions.
 - Dobby AI Assistant – Get unfiltered insights from the Dobby-Unhinged model.
