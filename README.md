@@ -28,3 +28,5 @@ Analyze any memecoin across Solana, Ethereum, BSC, and Base in real time. Paste 
 👉 ROMA Memetrace makes memecoin research clear, transparent, and community-driven. Built by Kyozuro for Sentient community.
 
 ⸻
+<img width="1696" height="1266" alt="image" src="https://github.com/user-attachments/assets/dc0a9643-5eb9-4ce9-b8f3-4bc9e800cd23" />
+<img width="1308" height="1162" alt="image" src="https://github.com/user-attachments/assets/f22934b1-c499-455e-ac58-f2bc2bcacdd5" />
